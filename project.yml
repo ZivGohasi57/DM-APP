@@ -1,0 +1,21 @@
+name: DMBattleTracker
+options:
+  bundleIdPrefix: com.dmbattletracker
+  deploymentTarget:
+    macOS: "14.0"
+  xcodeVersion: "15.0"
+targets:
+  DMBattleTracker:
+    type: application
+    platform: macOS
+    sources:
+      - DMBattleTracker
+    settings:
+      PRODUCT_BUNDLE_IDENTIFIER: com.dmbattletracker.app
+      SWIFT_VERSION: 5.9
+      MACOSX_DEPLOYMENT_TARGET: "14.0"
+      GENERATE_INFOPLIST_FILE: YES
+      INFOPLIST_KEY_LSApplicationCategoryType: public.app-category.games
+      INFOPLIST_KEY_CFBundleDisplayName: DM Battle Tracker
+      CODE_SIGN_STYLE: Automatic
+      CODE_SIGN_ENTITLEMENTS: DMBattleTracker/DMBattleTracker.entitlements

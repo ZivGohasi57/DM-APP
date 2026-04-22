@@ -1,0 +1,21 @@
+# Xcode user-specific data (local window state, breakpoints, schemes per-user)
+xcuserdata/
+*.xcuserstate
+
+# Xcode build products
+build/
+DerivedData/
+*.o
+*.d
+*.hmap
+*.ipa
+*.dSYM.zip
+*.dSYM
+
+# macOS system files
+.DS_Store
+.AppleDouble
+.LSOverride
+
+# Source icon (large PNG used to generate Assets.xcassets — not needed in repo)
+Gemini_Generated_Image_-removebg-preview.png
