@@ -141,6 +141,8 @@ xcodegen generate
 open DMBattleTracker.xcodeproj
 ```
 
+> **Catalog data**: The JSON catalog files (`spells-export.json`, `weapons-export.json`, `armor-export.json`, `magicitems-export.json`) are **not included** in this repository. They contain content from copyrighted D&D 5e sourcebooks (Wizards of the Coast, Kobold Press, etc.) and cannot be redistributed. You must provide your own exports — the app will load an empty catalog without them.
+
 > **Schema reset**: If SwiftData model changes cause a crash on launch, delete:
 > `~/Library/Application Support/com.dmbattletracker.app/`
 

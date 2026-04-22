@@ -19,3 +19,10 @@ DerivedData/
 
 # Source icon (large PNG used to generate Assets.xcassets — not needed in repo)
 Gemini_Generated_Image_-removebg-preview.png
+
+# Catalog data — contains copyrighted D&D content from non-SRD sources (WotC, Kobold Press, etc.)
+# These files must be provided separately and are not redistributable
+DMBattleTracker/spells-export.json
+DMBattleTracker/weapons-export.json
+DMBattleTracker/armor-export.json
+DMBattleTracker/magicitems-export.json
